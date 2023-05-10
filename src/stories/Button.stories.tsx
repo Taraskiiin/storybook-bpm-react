@@ -8,7 +8,7 @@ export default {
 
 const Template = (args: any) => <Button {...args} />;
 
-export const Red = () => Template.bind({});
+export const Red  = Template.bind({});
 Red.args = {
 	label: 'Press me',
 	backgroundColor: 'red',
